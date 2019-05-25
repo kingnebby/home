@@ -1,0 +1,12 @@
+# npm i -g eslint eslint-plugin-prettier prettier
+extends: "eslint:recommended"
+env:
+  es6: true
+  node: true
+parserOptions:
+  ecmaVersion: 9
+plugins:
+  - prettier
+rules:
+  prettier/prettier: error
+  no-console: 0
